@@ -20,9 +20,21 @@ body {
   padding-left: 0.5rem;
   font-weight: bold;
 }
+.input-group-sm {
+  width: auto; /* Cambia este valor para ajustar el ancho del input */
+}
+.input-group-text img {
+  height: 70px;
+  width: auto;
+}
 
 /* ********************MY STYLES **********************************/
-
+.bg-my-selecction {
+  background-color: whitesmoke;
+}
+.resize-my-styles {
+  width: 14.375rem;
+}
 /* // X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */
 
