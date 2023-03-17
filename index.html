@@ -91,23 +91,37 @@
     <!-- FIN NAV -->
     <!-- CONTAINER CALCULADORA-1 -->
     <main class="pt-5 bg-my-selecction">
+      <h1 class="text-center mb-5">CALCULADORA MUESTRAL</h1>
       <div class="container">
         <div class="row">
-          <article class="border col-12 col-lg-5">
+          <article class="col-12 col-lg-5 p-4">
             <h2 class="">Cuantitativo</h2>
             <!-- some tex about rules of estatistica -->
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-              repudiandae corporis voluptate obcaecati saepe culpa tenetur eaque
-              eos quia, deleniti accusamus. Reprehenderit id eos velit quibusdam
-              cupiditate ipsa doloremque sapiente?
+              Una muestra cuantitativa es un grupo de personas o cosas
+              seleccionadas para un estudio estadístico. En este tipo de
+              muestra, se miden cosas que se pueden expresar en números, como
+              edades o alturas. Los investigadores utilizan esta muestra para
+              aprender más sobre la población completa y hacer predicciones
+              basadas en los datos recolectados. Es importante elegir la muestra
+              al azar y que sea representativa de la población.
             </p>
             <h3>Guía</h3>
             <!-- references about  -->
-            <img src="" alt="" />
+            <p>Fomula cuando se conoce el tamaño de poblacion(N)</p>
+            <img
+              src="se-conoce-n-cuantitativo.png"
+              alt="se conoce n cuantitativo"
+              class="img-fluid"
+            />
+            <p>Fomula cuando no se conoce el tamaño de poblacion(N)</p>
+            <img
+              src="se-desconoce-n-cuantitativo.png"
+              alt="se desconoce n cuantitativo"
+            />
           </article>
           <!-- General Calculator -->
-          <article class="border col-12 col-lg-7">
+          <article class="col-12 col-lg-7 p-4">
             <h2 class="">Calculadora</h2>
             <hr />
             <h5>¿Se conoce la poblacion?(N)</h5>
@@ -123,68 +137,105 @@
             </div>
             <hr />
             <div class="row">
-              <div class="input-group-sm mb-3">
-                <span class="input-group-text" id="inputGroup-sizing-default"
-                  >Nivel de confianza Z&alpha;</span
-                >
-                <input
-                  type="text"
-                  class="form-control"
-                  aria-label="Sizing example input"
-                  aria-describedby="inputGroup-sizing-default"
-                />
-              </div>
+              <article class="col-12">
+                <div class="row">
+                  <div class="input-group-sm mb-3">
+                    <span
+                      class="input-group-text"
+                      id="inputGroup-sizing-default"
+                      >Nivel de confianza Z<sub>&alpha;</sub></span
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      aria-label="Sizing example input"
+                      aria-describedby="inputGroup-sizing-default"
+                    />
+                  </div>
 
-              <div class="input-group-sm mb-3">
-                <span class="input-group-text" id="inputGroup-sizing-default"
-                  >Tamaño de poblacion(N)</span
-                >
-                <input
-                  type="text"
-                  class="form-control"
-                  aria-label="Sizing example input"
-                  aria-describedby="inputGroup-sizing-default"
-                />
-              </div>
-              <div class="input-group-sm mb-3">
-                <span class="input-group-text" id="inputGroup-sizing-default"
-                  >Varianza(&sigma;<sup>2</sup>)</span
-                >
-                <input
-                  type="text"
-                  class="form-control"
-                  aria-label="Sizing example input"
-                  aria-describedby="inputGroup-sizing-default"
-                />
-              </div>
-              <div class="input-group-sm mb-3">
-                <span class="input-group-text" id="inputGroup-sizing-default"
-                  >Maximo error de estimacíon(d)</span
-                >
-                <input
-                  type="text"
-                  class="form-control"
-                  aria-label="Sizing example input"
-                  aria-describedby="inputGroup-sizing-default"
-                />
-              </div>
+                  <div class="input-group-sm mb-3">
+                    <span
+                      class="input-group-text"
+                      id="inputGroup-sizing-default"
+                      >Tamaño de poblacion(N)</span
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      aria-label="Sizing example input"
+                      aria-describedby="inputGroup-sizing-default"
+                    />
+                  </div>
+                  <div class="input-group-sm mb-3">
+                    <span
+                      class="input-group-text"
+                      id="inputGroup-sizing-default"
+                      >Varianza(&sigma;<sup>2</sup>)</span
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      aria-label="Sizing example input"
+                      aria-describedby="inputGroup-sizing-default"
+                    />
+                  </div>
+                  <div class="input-group-sm mb-3">
+                    <span
+                      class="input-group-text"
+                      id="inputGroup-sizing-default"
+                      >Maximo error de estimacíon(d)</span
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      aria-label="Sizing example input"
+                      aria-describedby="inputGroup-sizing-default"
+                    />
+                  </div>
+                </div>
+              </article>
+              <article
+                class="col-12 d-flex align-items-lg-center justify-content-center"
+              >
+                <!-- aqui el boton calcular -->
+                <button type="button" class="btn btn-outline-success">
+                  CALCULAR
+                </button>
+              </article>
             </div>
           </article>
         </div>
-        <div class="row mt-1">
-          <article class="border col-12 col-lg-5">
+        <div class="row mt-1 mb-3">
+          <article class="col-12 col-lg-5 p-4">
             <!-- information about cuantitative statistics -->
             <h2>Cualitativo</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur, dolorem atque, nemo quod vitae magni autem officiis
-              placeat et voluptas maiores nihil tempora a esse commodi numquam
-              dicta. Id, voluptatibus.
+              Una muestra cualitativa es un grupo de personas o cosas
+              seleccionadas para un estudio estadístico. En este tipo de
+              muestra, se miden cosas que se pueden expresar en características
+              o atributos, en lugar de números. Por ejemplo, se podría estudiar
+              la opinión de los estudiantes sobre una política escolar. Los
+              investigadores utilizan esta muestra para aprender más sobre las
+              percepciones y actitudes de la población completa y hacer
+              predicciones basadas en los datos recolectados. Es importante
+              elegir la muestra de manera apropiada para evitar sesgos en el
+              estudio.
             </p>
             <h3>Guía</h3>
-            <img src="" alt="" />
+            <!-- references about -->
+            <p>Fomula cuando se conoce el tamaño de poblacion(N)</p>
+            <img
+              src="se-conoce-n-cualitativo.png"
+              alt="se conoce n cualitativa"
+              class="img-fluid"
+            />
+            <p>Fomula cuando no se conoce el tamaño de poblacion(N)</p>
+            <img
+              src="se-desconoce-n-cualitativo.png"
+              alt="se desconoce n cualitativo"
+            />
           </article>
-          <article class="border col-12 col-lg-7">
+          <article class="col-12 col-lg-7 p-4">
             <!-- calculator area -->
             <h2 class="">Calculadora</h2>
             <hr />
@@ -201,62 +252,84 @@
             </div>
             <hr />
             <div class="row">
-              <div class="input-group-sm mb-3">
-                <span class="input-group-text" id="inputGroup-sizing-default"
-                  >Nivel de confianza Z&alpha;</span
-                >
-                <input
-                  type="text"
-                  class="form-control"
-                  aria-label="Sizing example input"
-                  aria-describedby="inputGroup-sizing-default"
-                />
-              </div>
+              <article class="col-12">
+                <div class="row">
+                  <div class="input-group-sm mb-3">
+                    <span
+                      class="input-group-text"
+                      id="inputGroup-sizing-default"
+                      >Nivel de confianza Z<sub>&alpha;</sub></span
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      aria-label="Sizing example input"
+                      aria-describedby="inputGroup-sizing-default"
+                    />
+                  </div>
 
-              <div class="input-group-sm mb-3">
-                <span class="input-group-text" id="inputGroup-sizing-default"
-                  >Tamaño de poblacion(N)</span
-                >
-                <input
-                  type="text"
-                  class="form-control"
-                  aria-label="Sizing example input"
-                  aria-describedby="inputGroup-sizing-default"
-                />
-              </div>
-              <div class="input-group-sm mb-3">
-                <span class="input-group-text" id="inputGroup-sizing-default"
-                  >Propabilidad Positiva(p)</span
-                >
-                <input
-                  type="text"
-                  class="form-control"
-                  aria-label="Sizing example input"
-                  aria-describedby="inputGroup-sizing-default"
-                />
-              </div>
-              <div class="input-group-sm mb-3">
-                <span class="input-group-text" id="inputGroup-sizing-default"
-                  >Propabilidad negativa(q)</span
-                >
-                <input
-                  type="text"
-                  class="form-control"
-                  aria-label="Sizing example input"
-                  aria-describedby="inputGroup-sizing-default"
-                />
-              </div>
-              <div class="input-group-sm mb-3">
-                <span class="input-group-text" id="inputGroup-sizing-default"
-                  >Maximo error de estimacíon(d)</span
-                >
-                <input
-                  type="text"
-                  class="form-control"
-                  aria-label="Sizing example input"
-                  aria-describedby="inputGroup-sizing-default"
-                />
-              </div>
+                  <div class="input-group-sm mb-3">
+                    <span
+                      class="input-group-text"
+                      id="inputGroup-sizing-default"
+                      >Tamaño de poblacion(N)</span
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      aria-label="Sizing example input"
+                      aria-describedby="inputGroup-sizing-default"
+                    />
+                  </div>
+                  <div class="input-group-sm mb-3">
+                    <span
+                      class="input-group-text"
+                      id="inputGroup-sizing-default"
+                      >Propabilidad Positiva(p)</span
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      aria-label="Sizing example input"
+                      aria-describedby="inputGroup-sizing-default"
+                    />
+                  </div>
+                  <div class="input-group-sm mb-3">
+                    <span
+                      class="input-group-text"
+                      id="inputGroup-sizing-default"
+                      >Propabilidad negativa(q)</span
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      aria-label="Sizing example input"
+                      aria-describedby="inputGroup-sizing-default"
+                    />
+                  </div>
+                  <div class="input-group-sm mb-3">
+                    <span
+                      class="input-group-text"
+                      id="inputGroup-sizing-default"
+                      >Maximo error de estimacíon(d)</span
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      aria-label="Sizing example input"
+                      aria-describedby="inputGroup-sizing-default"
+                    />
+                  </div>
+                </div>
+              </article>
+              <article
+                class="col-12 d-flex align-items-lg-center justify-content-center"
+              >
+                <!-- aqui el boton calcular -->
+                <button type="button" class="btn btn-outline-success">
+                  CALCULAR
+                </button>
+              </article>
             </div>
           </article>
         </div>
