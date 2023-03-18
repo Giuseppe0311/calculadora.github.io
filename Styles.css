@@ -35,7 +35,7 @@ body {
 .resize-my-styles {
   width: 14.375rem;
 }
-@media (max-width: 410px) {
+@media (max-width: 420px) {
   .mystyleresizemedia {
     display: flex;
     justify-content: center;
