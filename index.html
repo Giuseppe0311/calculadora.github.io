@@ -255,10 +255,10 @@
             <hr />
             <h5>¿Se conoce la poblacion?(N)</h5>
             <div class="input-group mb-3 resize-my-styles">
-              <label class="input-group-text" for="inputGroupSelect01"
+              <label class="input-group-text" for="inputGroupSelect02"
                 >Opciones</label
               >
-              <select class="form-select" id="inputGroupSelect01">
+              <select class="form-select" id="inputGroupSelect02">
                 <option selected>selecione...</option>
                 <option value="1">si</option>
                 <option value="2">no</option>
@@ -336,7 +336,7 @@
                       >Maximo error de estimacíon(d)</span
                     >
                     <input
-                      id="maxestimation1"
+                      id="maxestimation2"
                       disabled
                       type="text"
                       class="form-control"
@@ -350,10 +350,16 @@
                 class="col-12 d-flex align-items-lg-center justify-content-center"
               >
                 <!-- aqui el boton calcular -->
-                <button disabled type="button" class="btn btn-outline-success">
+                <button
+                  disabled
+                  type="button"
+                  class="btn btn-outline-success"
+                  id="btncalcular2"
+                >
                   CALCULAR
                 </button>
               </article>
+              <p class="border p-3 text-center mt-5" id="respuesta2"></p>
             </div>
           </article>
         </div>
