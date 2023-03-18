@@ -35,6 +35,13 @@ body {
 .resize-my-styles {
   width: 14.375rem;
 }
+@media (max-width: 410px) {
+  .mystyleresizemedia {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 /* // X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */
 

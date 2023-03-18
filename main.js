@@ -100,8 +100,3 @@ function calcular() {
       break;
   }
 }
-
-// selectElement.addEventListener("change", (event) => {
-//   const selectedOption = event.target.value;
-//   console.log("La opción seleccionada es:", selectedOption);
-// });
